@@ -5,7 +5,7 @@ const Comment = require('./Comment');
 
 // create associations
 User.hasMany(Post, {
-    forignKey: 'user_id'
+    forignKey: 'user_id'    
 });
 
 // defines relationship of Post model to the User
